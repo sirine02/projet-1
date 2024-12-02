@@ -1,52 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+
+   <title>Document</title>
 </head>
+
 <body>
    <nav>
-    <ul>
-        <li><a href="#home">home</a></li>
-        <li><a href="#About">About</a></li>
-        <li><a href="#work">work</a></li>
-        <li><a href="#resume">resume</a></li>
-        <li><a href="#contact">contact</a></li>
-    </ul>
+      <ul>
+         <li><a href="#home">home</a></li>
+         <li><a href="#About">About</a></li>
+         <li><a href="#work">work</a></li>
+         <li><a href="#resume">resume</a></li>
+         <li><a href="#contact">contact</a></li>
+      </ul>
    </nav>
- <section id = "home">
-    <h1>Welcome to my website</h1>
+   <section id="home">
+      <h1>Welcome to my website</h1>
 
- </section>  
- <section id = "section">
-    <h1> About Me : </h1>
-    <p>je m'appelle <strong> sirine bannour</strong>, je suis passionne par le developpement web </p> <hr>
+   </section>
+   <section id="section">
+      <h1> About Me : </h1>
+      <p>je m'appelle <strong> sirine bannour</strong>, je suis passionne par le developpement web </p>
+      <hr>
 
- </section>
- <section>  
-     <h1> Work</h1>
-    <p> je veux travailler le domaine du developpement web </p><hr>
+   </section>
+   <section>
+      <h1> Work</h1>
+      <p> je veux travailler le domaine du developpement web </p>
+      <hr>
 
-     </section>
-     <section> 
-        <h1>CV </h1>
-       <img src="photo.jpg" alt="your photo" width="200" height="200">
-     </section>
-     <section>
+   </section>
+   <section>
+      <h1>CV </h1>
+      <img src="photo.jpg" alt="your photo" width="200" height="200">
+   </section>
+   <section>
       <table border="2">
-<tr>
-   <td>BANNOUR</td>
-   <td> SIRINE</td>
-   <td>BEKALTA </td>
-   <td>94171121</td>
-   <td> bannour.sirine@icloud.com</td>
-   <td>baccalaureat</td>
-</tr>
+         <thead>
+            <th>Nom</th>
+            <th>prenom</th>
+            <th> lieu</th>
+            <th>numero</th>
+            <th>email</th>
+            <th>niveau</th>
+         </thead>
+         <tr>
+            <td>BANNOUR</td>
+            <td> SIRINE</td>
+            <td>BEKALTA </td>
+            <td>94171121</td>
+            <td> bannour.sirine@icloud.com</td>
+            <td>baccalaureat</td>
+         </tr>
       </table>
-         
-     
-     </section>
-    
+
+   </section>
+   <section id="contact">
+      <h3> Contact Me</h3>
+      <form action="">
+         <label for="name">Name </label>
+         <input type="text" id="name" name="name" required>
+       
+         <label for="email">Email</label>
+         <input type="text" id="email" name="email" required>
+
+         <label for="message">Message</label>
+         <textarea id="name" name="name" rows="2" required ></textarea>
+         <button type="submit">send</button>
+      </form>
+
+   </section>
+   <footer>
+      <p>&copy; 2024 Sirine bannour</p>
+   </footer>
+
 </body>
+
 </html>
